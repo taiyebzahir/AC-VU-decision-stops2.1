@@ -119,6 +119,7 @@ class Stops:
         global cell1, cell2, err, not_complete
         for i in range(steps):
             self.step()
+       #print self.pop
         if (self.pop[0,0]==1 and self.pop[1,0]==0) :
             cell1+=1
         elif (self.pop[1,0]==1 and self.pop[0,0]==0) :
