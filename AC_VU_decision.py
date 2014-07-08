@@ -123,7 +123,7 @@ class Stops:
             cell1+=1
         elif (self.pop[1,0]==1 and self.pop[0,0]==0) :
             cell2+=1
-        elif self.pop[:,0]==1:
+        elif (self.pop[1,0]==1 and self.pop[0,0]==1) :
             err+=1
         else:
             not_complete+=1
