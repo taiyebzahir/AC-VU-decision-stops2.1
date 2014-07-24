@@ -1,4 +1,4 @@
-__author__ = 'Kamil Koziara'
+__author__ = 'Kamil Koziara & Taiyeb Zahir'
 
 import numpy
 import matplotlib.pyplot as plt
